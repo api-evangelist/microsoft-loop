@@ -1,0 +1,36 @@
+aid: microsoft-loop
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-loop/refs/heads/main/apis.yml
+apis:
+  - aid: microsoft-loop:graph-loop-api
+    name: Microsoft Graph Loop API
+    tags:
+      - Collaboration
+      - Loop Components
+      - Microsoft Graph
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://graph.microsoft.com/v1.0/
+    humanURL: https://learn.microsoft.com/en-us/graph/loop-api-concept-overview
+    properties:
+      - url: https://learn.microsoft.com/en-us/graph/loop-api-concept-overview
+        type: Documentation
+    description: >-
+      The Microsoft Graph Loop API enables developers to interact with
+      Microsoft Loop workspaces and components. Loop components are
+      portable, collaborative content blocks that sync across Microsoft
+      365 apps. The API provides access to Loop pages stored in SharePoint
+      Embedded containers, enabling creation and management of collaborative
+      content.
+common:
+  - type: Portal
+    url: https://loop.microsoft.com/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/graph/auth/
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+maintainers:
+  - name: Kin Lane
+    email: kin@apievangelist.com
