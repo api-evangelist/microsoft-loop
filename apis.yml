@@ -47,9 +47,9 @@ common:
     url: https://support.microsoft.com/en-us/topic/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c
   - type: Authentication
     url: https://learn.microsoft.com/en-us/graph/auth/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
