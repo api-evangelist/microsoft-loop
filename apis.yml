@@ -39,6 +39,8 @@ apis:
       Embedded containers, enabling creation and management of collaborative
       content.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/MicrosoftDocs
   - type: Portal
     url: https://loop.microsoft.com/
   - type: Website
