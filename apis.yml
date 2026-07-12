@@ -39,6 +39,10 @@ apis:
       Embedded containers, enabling creation and management of collaborative
       content.
 common:
+  - type: VulnerabilityDisclosure
+    url: security/microsoft-loop-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/microsoft-loop-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/MicrosoftDocs
   - type: Portal
