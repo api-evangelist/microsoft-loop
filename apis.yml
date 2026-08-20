@@ -22,6 +22,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-
 tags:
   - Collaboration
   - Microsoft
+  - Microsoft-365
+  - Productivity
+tags_raw:
+  - Collaboration
+  - Microsoft
   - Microsoft 365
   - Productivity
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-loop/refs/heads/main/apis.yml
