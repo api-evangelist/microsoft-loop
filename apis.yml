@@ -33,13 +33,14 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-
 tags:
   - Collaboration
   - Microsoft
-  - Microsoft-365
+  - Microsoft 365
   - Productivity
 tags_raw:
   - Collaboration
   - Microsoft
   - Microsoft 365
   - Productivity
+  - Microsoft-365
 url: https://loop.microsoft.com/
 created: '2024-01-01'
 modified: '2026-04-28'
