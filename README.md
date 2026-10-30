@@ -1,4 +1,4 @@
-# Microsoft Loop (microsoft-loop)
+# Microsoft Loop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,51 +66,105 @@
 
 Microsoft Loop is a collaborative productivity app that brings together teams, content, and tasks across Microsoft 365 tools. It provides API access through Microsoft Graph for managing Loop workspaces and components.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-loop/refs/heads/main/apis.yml)
+**Areas:** Collaboration · Microsoft · Microsoft 365 · Productivity
 
-## Scope
+## Microsoft Loop on APIs.io
 
-- **Type:** Index
+Everything profiled for Microsoft Loop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-loop/](https://apis.io/providers/microsoft-loop/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - Collaboration, Microsoft, Microsoft 365, Productivity
+- [Microsoft Graph Loop API](https://apis.io/apis/microsoft-loop/graph-loop-api/) — The Microsoft Graph Loop API enables developers to interact with Microsoft Loop workspaces and components. Loop components are portable, collaborative…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Microsoft Graph Loop API
-The Microsoft Graph Loop API enables developers to interact with Microsoft Loop workspaces and components. Loop components are portable, collaborative content blocks that sync across Microsoft 365 apps. The API provides access to Loop pages stored in SharePoint Embedded containers, enabling creation and management of collaborative content.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://learn.microsoft.com/en-us/graph/loop-api-concept-overview](https://learn.microsoft.com/en-us/graph/loop-api-concept-overview)
+- [Microsoft Loop Domain Security](https://apis.io/security/microsoft-loop/microsoft-loop-domain-security/)
+- [Microsoft Loop Vulnerability Disclosure](https://apis.io/security/microsoft-loop/microsoft-loop-vulnerability-disclosure/)
 
-**Base URL:** https://graph.microsoft.com/v1.0/
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - Collaboration, Loop Components, Microsoft Graph
+- [Microsoft Loop Plans Pricing](https://apis.io/plans/microsoft-loop/microsoft-loop-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://learn.microsoft.com/en-us/graph/loop-api-concept-overview)
-- [Authentication](https://learn.microsoft.com/en-us/graph/auth/)
+Published request limits.
 
-## Common Properties
+- [Microsoft Loop Rate Limits](https://apis.io/rate-limits/microsoft-loop/microsoft-loop-rate-limits/)
 
-- [Portal](https://loop.microsoft.com/)
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Microsoft Loop Finops](https://apis.io/finops/microsoft-loop/microsoft-loop-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.microsoft.com/en-us/microsoft-loop)
 - [Documentation](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c)
-- [Authentication](https://learn.microsoft.com/en-us/graph/auth/)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
 - [Support](https://support.microsoft.com/)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/MicrosoftDocs)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 22.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 28.9 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-loop/](https://apis.io/providers/microsoft-loop/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Loop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-loop/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
